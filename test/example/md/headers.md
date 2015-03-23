@@ -23,15 +23,3 @@ Check Authorization header
         Authorization: Basic foo
 
 + Response 401
-
-
-### Retrieve a dummy object [GET]
-Check Authorization header Partial Content Type
-
-+ Request
-
-    + Headers
-
-        Content-Type: application/json; charset=UTF-8
-
-+ Response 200
