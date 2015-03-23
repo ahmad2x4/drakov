@@ -1,6 +1,6 @@
 {
-  "name": "drakov",
-  "version": "0.0.10",
+  "name": "drakov-a",
+  "version": "0.0.14",
   "description": "Mock server that implements the API Blueprint specification",
   "main": "./lib/drakov.js",
   "bin": {
@@ -9,17 +9,17 @@
   "scripts": {
     "test": "grunt"
   },
-  "homepage": "https://github.com/aconex/drakov",
+  "homepage": "https://github.com/ahmad2x4/drakov",
   "author": {
-    "name": "Yakov Khalinsky",
-    "email": "ykhalinsky@aconex.com"
+    "name": "Ahmadreza Atighechi",
+    "email": "ara.mailbox@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Aconex/drakov.git"
+    "url": "https://github.com/ahmad2x4/drakov.git"
   },
   "bugs": {
-    "url": "https://github.com/aconex/drakov/issues"
+    "url": "https://github.com/ahmad2x4/drakov/issues"
   },
   "license": "MIT",
   "dependencies": {
@@ -28,6 +28,7 @@
     "express": "4.6.1",
     "glob": "4.0.4",
     "grunt": "^0.4.5",
+    "jsonschema": "^1.0.0",
     "lodash": "2.4.1",
     "optimist": "0.6.1",
     "protagonist": "0.12.0"

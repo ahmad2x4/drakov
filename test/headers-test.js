@@ -20,4 +20,13 @@ describe('/headers', function(){
         });
     });
 
+    describe('GET', function(){
+        it('should respond with HTTP 200 if content-type partially matches', function(done){
+            request.get('/headers')
+                .set('content-type', 'application/json')
+                .expect(200)
+                .end(endCB(done));
+        });
+    });
+
 });
